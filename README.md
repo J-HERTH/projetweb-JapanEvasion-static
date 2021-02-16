@@ -14,7 +14,9 @@ Un site vitrine d'un blog de voyage autour du Japon, réalisé dans le cadre d'u
 
 Le but du projet était de réaliser toutes les étapes de la création d'un site web vitrine, du maquettage à l'hébergement en passant évidemment par le code. Le choix du thème était libre, et le site devait être statique, et ne pas comporter de langages de programmation avancés ou de BDD. Etaient imposées plusieurs pages, l'intégration de sliders et d'un plan d'accès, et le site devait être responsive.
 
-Vous trouverez la charte graphique réalisé pour le projet ainsi que les maquettes en format PNG dans le dossier charte-graphique du repositery. 
+Vous trouverez la charte graphique réalisé pour le projet ainsi que les maquettes en format PNG dans le lien ci-dessous. 
+
+https://drive.google.com/drive/folders/1i5xwq7AvMVziTlsplL6jZIkH3LsMgwvx?usp=sharing
 
 DEVELOPEMENT:
 
@@ -29,6 +31,8 @@ The static website of a fake blog, realised as an assessment of my web developme
 The goal of this project was to undertake all steps of the creation of a static website, starting with a mock-up, progressing to programming and then onto hoisting. The theme was of one's choosing and the website had to be exempt of advanced programming langages and of a database. It was demanded to include a certain number of pages, as well as the integration of a slider and a map. The website had to be full responsive.
 
 You will find the graphic charter produced for the project as well as the models in PNG format on the link below.
+
+https://drive.google.com/drive/folders/1i5xwq7AvMVziTlsplL6jZIkH3LsMgwvx?usp=sharing
 
 
 DEVELOPMENT:
