@@ -8,7 +8,7 @@ AUTHOR: Jordan HERTH
 
 ~ FR:
 
-DESCRIPTION:
+##DESCRIPTION:
 
 Un site vitrine d'un blog de voyage autour du Japon, réalisé dans le cadre d'une évaluation lors de ma formation en développement web. Il s'agit de mon premier projet de site web, ainsi que mon premier repository sur Github.
 
