@@ -1,0 +1,133 @@
+/* VARIABLES */
+
+@rouge: #91060e;
+@fondu : rgba(0, 0, 0, 0.7);
+@backnoir : #1e1e1e;
+@text-color : #212529;
+@blue : #02374C;
+
+/* MIXINS  */
+
+.boxshadow {
+
+    -webkit-box-shadow: 0px 6px 14px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 6px 14px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 6px 14px 0px rgba(0,0,0,0.75);
+}
+
+
+/* IMPORT */
+
+@import "footer";
+@import "header";
+
+/* BACKGROUND HEADER */
+
+#background {
+    max-width: 100%;
+    height: 70vh;
+    background-image: url("/images/image-quisommesnous/background-image.jpg");
+    background-position: center;
+}
+
+@media screen and (min-width:320px) and (max-width: 576px) {
+
+    #background {
+        height: 30vh;
+    }
+}
+
+/* A PROPOS */
+
+.apropos {
+    font-family: 'Mulish';
+    margin-bottom: 75px ;
+}
+.apropos h1{
+    font-weight: 900;
+    font-size: 4rem;  
+    margin-bottom: 40px;
+}
+.apropos p{
+    font-weight: 300;
+    font-size: 1.2rem;
+}
+.contacter {
+    color: @text-color !important;
+    text-decoration: none !important;
+    font-family: 'Mulish';
+    font-weight: 200;
+    font-size: 1.2rem;
+    transition: 1.7;
+}
+.contacter:hover{
+    color : @rouge !important;
+    text-decoration: underline !important;
+    text-underline-offset: 0.5rem;
+}
+
+@media screen and (min-width:320px) and (max-width: 576px) {
+
+    .apropos h1{
+        font-size: 2.5rem;  
+    }
+}
+
+/* NOUS SUIVRE */
+
+#nous-suivre{
+    text-align: center;
+    margin-top: 0px;
+    font-family: 'Mulish';
+    font-weight: 900;
+}
+
+.follow {
+    margin-top: 30px;
+    margin-bottom: 80px;
+}
+.follow i {
+    color: white;
+    background-color: black;
+    min-width: 100px;
+    width: 160px;
+    min-height: 100%;
+    padding : 10px;
+    text-align: center;
+    margin-right: 20px;
+    transition: 0.6s;
+}
+.follow i:hover{
+    opacity: 0.7;
+}
+
+#fb {
+    background-color: #3b5998;
+}
+#twitter {
+    background-color : #00acee;
+}
+#linkedin {
+    background-color: #0072b1;
+}
+#instagram { 
+    background: #f09433; 
+    background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+    background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+}
+
+@media screen and (min-width:320px) and (max-width: 576px) {
+
+    .nous-suivre {
+        display: none;
+    }
+}
+
+@media screen and (min-width:576px){
+
+    .follow {
+        display: inherit;
+    }
+}

@@ -1,0 +1,64 @@
+/* VARIABLES */
+
+@rouge: #91060e;
+@fondu : rgba(0, 0, 0, 0.7);
+@backnoir : #1e1e1e;
+@text-color : #212529;
+@blue : #02374C;
+
+/* IMPORTS LESS */
+
+@import "footer";
+@import "header";
+
+/* BACKGROUND HEADER */
+
+#background {
+    max-width: 100%;
+    height: 40vh;
+    background-image: url("/images/image-mentions-légales/background-image.jpg");
+    background-position: center;
+    border-bottom : 2px solid black;
+}
+
+@media screen and (min-width:320px) and (max-width: 576px) {
+
+    #background {
+        height: 30vh;
+    }
+    h1 {
+        text-align: center;
+    }
+}
+
+/* CONTENT */
+
+.mentions a {
+    color: @rouge !important;
+    text-decoration: none;
+}
+h1 {
+    font-size: 3rem;
+    font-weight: 900;
+    margin-bottom: 40px;
+}
+h2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+li {
+    font-family: 'Fjalla One';
+    color : @rouge;
+    margin: 10px;
+}
+.mentions ul {
+    list-style: none;
+}
+.mentions ul li::before {
+    color: black;
+    content: "\2022   ";
+}
+
+
+

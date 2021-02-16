@@ -1,0 +1,51 @@
+/* VARIABLES */
+
+@rouge: #91060e;
+@fondu : rgba(0, 0, 0, 0.7);
+@backnoir : #1e1e1e;
+@text-color : #212529;
+@blue : #02374C;
+
+/* IMPORTS LESS */
+
+@import "footer";
+@import "header";
+
+/* BACKGROUND HEADER */
+
+#background {
+    max-width: 100%;
+    height: 40vh;
+    background-image: url("/images/image-mentions-légales/background-image.jpg");
+    background-position: center;
+    border-bottom : 2px solid black;
+}
+
+@media screen and (min-width:320px) and (max-width: 576px) {
+
+    #background {
+        height: 30vh;
+    }
+    h1 {
+        text-align: center;
+    }
+}
+
+/* CONTENT */
+
+.mentions {
+    font-family: 'Mulish';
+}
+h1 {
+    font-size: 3rem;
+    font-weight: 900;
+    margin-bottom: 40px;
+}
+h3 {
+    font-size: 1.5rem;
+    font-weight: 900;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+
