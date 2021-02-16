@@ -14,7 +14,7 @@ Un site vitrine d'un blog de voyage autour du Japon, réalisé dans le cadre d'u
 
 Le but du projet était de réaliser toutes les étapes de la création d'un site web vitrine, du maquettage à l'hébergement en passant évidemment par le code. Le choix du thème était libre, et le site devait être statique, et ne pas comporter de langages de programmation avancés ou de BDD. Etaient imposées plusieurs pages, l'intégration de sliders et d'un plan d'accès, et le site devait être responsive.
 
-Vous trouverez la charte graphique réalisé pour le projet ainsi que les maquettes en format PNG sur le lien ci-dessous. 
+Vous trouverez la charte graphique réalisé pour le projet ainsi que les maquettes en format PNG dans le dossier charte-graphique du repositery. 
 
 DEVELOPEMENT:
 
@@ -33,4 +33,4 @@ You will find the graphic charter produced for the project as well as the models
 
 DEVELOPMENT:
 
-There will be a dynamic version of this website, with a database, working contact forms and a membership access. This will be part of a second assessment in my training, and I will be working with two students, the project is available on another repositery.
+There will be a dynamic version of this website, with a database, working contact forms and a membership access. This will be part of a second assessment in my training, and I will be working with two students, the project is available on another repositery in the folder charte-graphique.
